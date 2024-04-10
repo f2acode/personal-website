@@ -4,5 +4,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "never"
   },
-  "prettier.requireConfig": true
+  "prettier.requireConfig": true,
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.experimental.tsserver.web.typeAcquisition.enabled": true
 }
