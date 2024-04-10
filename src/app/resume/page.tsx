@@ -50,7 +50,7 @@ export default function ResumePage() {
 
   return (
     <div className="flex place-content-center">
-      <div className="flex items-center justify-center mx-2 flex-col whitespace-break-spaces w-[1000px] border border-dotted">
+      <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-x-2">
         <TagLine resumeData={transformedResume}></TagLine>
         <div className="flex text-left">
           <div className="w-2/6 m-3">
