@@ -1,7 +1,9 @@
-import enResume from '@/app/data/resume-en.json'
 import H2Resume from '@/components/h2-resume'
 import H3Resume from '@/components/h3-resume'
 import TagLine from '@/components/tagline'
+import categorizedSkillsData from '@/data/categorized-skills.json'
+import enResumeData from '@/data/resume-en.json'
+import { CategorizedSkills } from '@/models/categorized-skills'
 import { Resume } from '@/models/resume'
 import { CalendarIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
@@ -16,31 +18,34 @@ export default function ResumePage() {
     }
   }
 
-  const transformedResume: Resume = {
-    ...enResume,
-    work: enResume.work
+  const categorizedSkills: CategorizedSkills =
+    categorizedSkillsData as CategorizedSkills
+
+  const resume: Resume = {
+    ...enResumeData,
+    work: enResumeData.work
       .map((workItem) => {
         return {
           ...workItem,
           ...convertDates(workItem.startDate, workItem.endDate),
         }
       })
-      .slice(0, enResume.work.length - 2),
-    education: enResume.education
+      .slice(0, enResumeData.work.length - 2),
+    education: enResumeData.education
       .map((educationItem) => {
         return {
           ...educationItem,
           ...convertDates(educationItem.startDate, educationItem.endDate),
         }
       })
-      .slice(0, enResume.education.length - 1),
-    projects: enResume.projects.map((workItem) => {
+      .slice(0, enResumeData.education.length - 1),
+    projects: enResumeData.projects.map((workItem) => {
       return {
         ...workItem,
         ...convertDates(workItem.startDate, workItem.endDate),
       }
     }),
-    volunteer: enResume.volunteer.map((volunteerItem) => {
+    volunteer: enResumeData.volunteer.map((volunteerItem) => {
       return {
         ...volunteerItem,
         ...convertDates(volunteerItem.startDate, volunteerItem.endDate),
@@ -51,12 +56,12 @@ export default function ResumePage() {
   return (
     <div className="flex place-content-center">
       <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-x-2">
-        <TagLine resumeData={transformedResume}></TagLine>
+        <TagLine resumeData={resume}></TagLine>
         <div className="flex text-left">
           <div className="w-2/6 m-3">
             <H2Resume>Education</H2Resume>
             <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
-              {transformedResume.education.map((educationItem, index) => (
+              {resume.education.map((educationItem, index) => (
                 <ProfileItem
                   key={index}
                   title={educationItem.studyType}
@@ -67,19 +72,24 @@ export default function ResumePage() {
               ))}
             </div>
             <H2Resume>Skills</H2Resume>
-            <div className="flex place-content-between flex-wrap mb-8">
-              {transformedResume.skills.map((skill, index) => (
-                <span
-                  key={index}
-                  className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
-                >
-                  {skill.name}
-                </span>
+            <div className="flex place-content-between flex-wrap divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
+              {categorizedSkills.categories.map((category, index) => (
+                <div key={index}>
+                  <H3Resume>{category.category}</H3Resume>
+                  {category.skills.map((skill, index) => (
+                    <span
+                      key={index}
+                      className="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               ))}
             </div>
             <H2Resume>Languages</H2Resume>
             <div className="space-y *:py-3 first:*:pt-0 last:*:pb-0">
-              {transformedResume.languages
+              {resume.languages
                 .map((language, index) => (
                   <div key={index} className="flex flex-row">
                     <div className="flex divide-x *:px-3 first:*:pl-0 last:*:pr-0">
@@ -88,16 +98,16 @@ export default function ResumePage() {
                     </div>
                   </div>
                 ))
-                .slice(1, transformedResume.languages.length)
+                .slice(1, resume.languages.length)
                 .reverse()}
             </div>
           </div>
           <div className="w-4/6 m-3">
             <H2Resume>Summary</H2Resume>
-            <p className="mb-8">{transformedResume.basics.summary}</p>
+            <p className="mb-8">{resume.basics.summary}</p>
             <H2Resume>Experience</H2Resume>
             <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
-              {transformedResume.work.map((workItem, index) => (
+              {resume.work.map((workItem, index) => (
                 <ProfileItem
                   key={index}
                   title={workItem.position}
@@ -110,7 +120,7 @@ export default function ResumePage() {
             </div>
             <H2Resume>Projects</H2Resume>
             <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
-              {transformedResume.projects.map((project, index) => (
+              {resume.projects.map((project, index) => (
                 <ProfileItem
                   key={index}
                   title={project.name}
@@ -127,7 +137,7 @@ export default function ResumePage() {
             </div>
             <H2Resume>Awards</H2Resume>
             <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0">
-              {transformedResume.awards.map((award, index) => (
+              {resume.awards.map((award, index) => (
                 <ProfileItem
                   key={index}
                   title={award.title}

@@ -399,21 +399,21 @@
       "name": "App diário",
       "startDate": "2020-12-31",
       "summary": "Projeto de app de diário, construído de ponta a ponta utilizando Flutter, Firebase e outras tecnologias.",
-      "url": null,
+      "url": "https://play.google.com/store/apps/details?id=me.correria.correria",
       "endDate": "2024-12-31"
     },
     {
       "name": "Biblioteca Open Source de cards",
       "startDate": "2021-12-31",
       "summary": "Utilizada para mostrar preço e planos",
-      "url": null,
+      "url": "https://github.com/f2acode/pricing_cards",
       "endDate": "2023-12-31"
     },
     {
       "name": "Biblioteca Crisp Open Source",
       "startDate": "2022-12-31",
       "summary": "Conecte-se ao Crisp Chat, cadastre um usuário para conversar (ou não) e renderize um widget de chat.",
-      "url": null,
+      "url": "https://github.com/lunahq/flutter-crisp",
       "endDate": "2022-12-31"
     }
   ],
