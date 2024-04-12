@@ -3,7 +3,7 @@ import H3Resume from '@/components/h3-resume'
 import TagLine from '@/components/tagline'
 import categorizedSkillsData from '@/data/categorized-skills.json'
 import enResumeData from '@/data/resume-en.json'
-import { CategorizedSkills } from '@/models/categorized-skills'
+import { CategorizedSkills, Category } from '@/models/categorized-skills'
 import { Resume } from '@/models/resume'
 import { CalendarIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
@@ -18,8 +18,22 @@ export default function ResumePage() {
     }
   }
 
-  const categorizedSkills: CategorizedSkills =
-    categorizedSkillsData as CategorizedSkills
+  const categoriesOrder = [
+    'Programming Languages',
+    'Data',
+    'Cloud/DevOps',
+    'Backend',
+    'Frontend',
+    'Soft Skills',
+  ]
+
+  const categorizedSkills: CategorizedSkills = {
+    categories: categoriesOrder.map((category) => {
+      return categorizedSkillsData.categories.find(
+        (c) => c.category === category,
+      )
+    }) as [Category],
+  }
 
   const resume: Resume = {
     ...enResumeData,
