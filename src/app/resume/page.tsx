@@ -92,7 +92,7 @@ export default function ResumePage() {
               {resume.languages
                 .map((language, index) => (
                   <div key={index} className="flex flex-row">
-                    <div className="flex divide-x *:px-3 first:*:pl-0 last:*:pr-0">
+                    <div className="divide-x *:px-3 first:*:pl-0 last:*:pr-0">
                       <p className="text-[#2451ff]">{language.language} </p>
                       <p className="">{language.fluency}</p>
                     </div>
