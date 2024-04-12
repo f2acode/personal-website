@@ -60,7 +60,7 @@ export default function TagLine({ resumeData }: TagLineProps) {
           priority={true}
         />
       </div>
-      <div className="flex flex-col text-wrap w-4/6 mx-3">
+      <div className="flex flex-col text-wrap w-4/6 mx-3 pt-4">
         <h1 className="text-2xl font-bold leading-7 text-gray-900 uppercase">
           {resumeData.basics.name}
         </h1>
