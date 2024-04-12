@@ -52,7 +52,7 @@ export default function TagLine({ resumeData }: TagLineProps) {
     <div className="flex items-center justify-between w-full">
       <div className="w-2/6 text-center mx-3">
         <Image
-          className="inline-block w-2/3 rounded-full ring-2 ring-white"
+          className="inline-block w-full md:w-2/3 rounded-full ring-2 ring-white"
           src="/profile.jpg"
           alt="Rounded profile picture of the candidate"
           width={'300'}
@@ -61,14 +61,14 @@ export default function TagLine({ resumeData }: TagLineProps) {
         />
       </div>
       <div className="flex flex-col text-wrap w-4/6 mx-3">
-        <h1 className="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight uppercase">
+        <h1 className="text-2xl font-bold leading-7 text-gray-900 uppercase">
           {resumeData.basics.name}
         </h1>
         <h2 className="text-[#2451ff] font-medium">
           {resumeData.basics.label}
         </h2>
         <div className="min-w-0 flex-1">
-          <div className="mt-1 divide-x-2 *:px-4 first:*:pl-0 last:*:pr-0 flex flex-row">
+          <div className="mt-1 md:divide-x-2 md:*:px-4 md:first:*:pl-0 md:last:*:pr-0 md:flex md:flex-row">
             <div className="mt-2 flex items-center text-sm text-gray-500">
               <MapPinIcon
                 className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-500"
@@ -89,7 +89,7 @@ export default function TagLine({ resumeData }: TagLineProps) {
               {resumeData.basics.email}
             </Link>
           </div>
-          <div className="mt-1 divide-x-2 *:px-4 first:*:pl-0 last:*:pr-0 flex flex-row">
+          <div className="mt-1 md:divide-x-2 md:*:px-4 md:first:*:pl-0 md:last:*:pr-0 md:flex md:flex-row">
             <Link
               className="mt-2 flex items-center text-sm text-gray-500"
               href={`https://wa.me/${resumeData.basics.phone}`}

@@ -57,7 +57,7 @@ export default function ResumePage() {
     <div className="flex place-content-center">
       <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-x-2">
         <TagLine resumeData={resume}></TagLine>
-        <div className="flex text-left">
+        <div className="flex text-left break-all">
           <div className="w-2/6 m-3">
             <H2Resume>Education</H2Resume>
             <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
