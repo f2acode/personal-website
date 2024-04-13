@@ -205,7 +205,7 @@ function ProfileItem({
             }).format(endDate)}
         </p>
       </div>
-      {description && <p>{description}</p>}
+      {description && <p>{description.replace(/- /g, '• ')}</p>}
     </div>
   )
 }

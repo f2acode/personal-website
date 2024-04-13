@@ -68,7 +68,7 @@ export default function TagLine({ resumeData }: TagLineProps) {
           {resumeData.basics.label}
         </h2>
         <div className="min-w-0 flex-1">
-          <div className="mt-1 md:divide-x-2 md:*:px-4 md:first:*:pl-0 md:last:*:pr-0 md:flex md:flex-row">
+          <div className="mt-1 sm:divide-x-2 sm:*:px-4 sm:first:*:pl-0 sm:last:*:pr-0 sm:flex sm:flex-row">
             <div className="mt-2 flex items-center text-sm text-gray-500">
               <MapPinIcon
                 className="mr-1.5 h-5 w-5 flex-shrink-0 text-gray-500"
@@ -89,7 +89,7 @@ export default function TagLine({ resumeData }: TagLineProps) {
               {resumeData.basics.email}
             </Link>
           </div>
-          <div className="mt-1 md:divide-x-2 md:*:px-4 md:first:*:pl-0 md:last:*:pr-0 md:flex md:flex-row">
+          <div className="mt-1 sm:divide-x-2 sm:*:px-4 sm:first:*:pl-0 sm:last:*:pr-0 sm:flex sm:flex-row">
             <Link
               className="mt-2 flex items-center text-sm text-gray-500"
               href={`https://wa.me/${resumeData.basics.phone}`}
