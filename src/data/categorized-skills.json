@@ -1,27 +1,8 @@
-{
-	"categories": [{
-			"category": "Data",
-			"skills": ["Data Engineering", "Data Analysis", "Machine Learning", "Amazon Redshift", "Looker (Software)", "SQL", "Airflow", "MongoDB", "PostgreSQL"]
-		},
-		{
-			"category": "Cloud/DevOps",
-			"skills": ["Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Terraform", "Docker"]
-		},
-		{
-			"category": "Frontend",
-			"skills": ["Flutter", "JavaScript", "React Native", "React.js"]
-		},
-		{
-			"category": "Programming Languages",
-			"skills": ["Dart", "Python (Programming Language)", "Clojure", "C#"]
-		},
-		{
-			"category": "Backend",
-			"skills": ["Node.js", "Elixir"]
-		},
-		{
-			"category": "Soft Skills",
-			"skills": ["Project Management", "Entrepreneurship", "Product Management", "Business Strategy", "Creative Problem Solving"]
-		}
-	]
-}
+{"categories": [
+    {"category": "Programming Languages", "skills": ["JavaScript", "Dart", "Python (Programming Language)", "SQL", "Clojure", "C#"]},
+    {"category": "Data", "skills": ["Snowflake", "Data Engineering", "Data Analysis", "Amazon Redshift", "Data Science", "Airflow", "PostgreSQL", "Looker (Software)", "MongoDB"]},
+    {"category": "Cloud/DevOps", "skills": ["Firebase", "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Terraform", "Git", "Docker"]},
+    {"category": "Frontend", "skills": ["Next.js", "Flutter", "React Native", "React.js"]},
+    {"category": "Backend", "skills": ["Elixir", "Node.js"]},
+    {"category": "Soft Skills", "skills": ["Leadership", "Mobile Software Development", "Entrepreneurship", "Project Management", "Product Management", "Creative Problem Solving", "Business Strategy"]}
+]}

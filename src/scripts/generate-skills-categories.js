@@ -8,7 +8,9 @@ const message = `Considering the following JSON, group the skills\
  into the following categories:\
  Programming Languages, Data, Cloud/DevOps, Frontend, Backend and Soft Skills.\
  Choose only one classification for each skill considering where it fits best,\
- without duplicating between categories.\
+ try to be precise avoiding classifying languages as frameworks, libraries or \
+ context aware (front end, backend, etc), just if you don' have another option.\
+ Don't duplicate between categories.\
  You should return the skills grouped by category in the following format:\
  {"categories": [{ "category": [], "skills": [] }]}:\n\n ${JSON.stringify(data.skills)}`
 

@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Felipe Augusto de Almeida",
-    "label": "Squad Lead | Tech Lead | Software Engineer | Python | Flutter | Javascript | Impacting lives through technology",
+    "label": "Squad Lead | Tech Lead | Software Engineer | Python | Flutter | JavaScript | Impacting lives through technology",
     "image": "",
     "email": "felipe-augusto-13@hotmail.com",
     "phone": "+5511948414445",
     "url": "https://github.com/f2acode",
-    "summary": "With years of experience in team leadership, full-stack development and data science, I am passionate about creating innovative and impactful products that improve the lives of people and companies.",
+    "summary": "Professional with more than 8 years of experience in leading technical teams, full-stack development and data engineering.\nLed challenging projects, including founding a company, overseeing technology and data teams of 4-8 members, driving software the development, facilitating technical advancements, streamlining cross-functional collaboration, and spearheading cost-saving initiatives and new project developments.",
     "location": {
       "countryCode": "BR",
       "address": "São Paulo"
@@ -27,17 +27,17 @@
       "startDate": "2023-04-30",
       "endDate": "2023-09-30",
       "highlights": [],
-      "summary": "In this role I was tasked with spearheading the strategic direction and successful execution of the data product initiatives. My responsibilities encompass the development and articulation of a clear product vision and strategy, aligning closely with organizational objectives.",
+      "summary": "• Formulated and communicated of a well-defined product vision and strategy towards new data initiatives, aligned with 100% of the related areas.\n• Led the organization of a company wide roadmap using the Notion's Projects new feature for the 3 data teams (analytics, engineering and data science).\n• Directed the concept definition of a state-of-the-art chatbot solution using LLM's to create a 100% conversational quote.",
       "url": "https://www.linkedin.com/company/justos-seguros/",
       "location": "São Paulo, Brazil"
     },
     {
       "name": "Luna",
-      "position": "Co-Founder",
+      "position": "Co-Founder and Full-Stack/Data Engineer",
       "startDate": "2020-01-31",
       "endDate": "2023-04-30",
       "highlights": [],
-      "summary": "Insurance brokerage startup, innovating through a unique user experience and artificial intelligence.\nResponsible for fullstack and data development.",
+      "summary": "• Founded and bootstrapped company from concept to profitability in 2 years.\n• Collaborated to the end-to-end software development, ensuring scalable solutions with an event driven architecture using Next.js, Cloud Functions, Pub/Sub, React, Firebase and PostgreSQL.\n• Orchestrated the product development, delivering market-leading solutions resulting in the timely release of a competitive feature set that drove an increase in product adoption.\n• Directed a data-centric approach, leveraging customer insights and segmentation analysis to customize marketing and product strategies.",
       "url": "https://www.linkedin.com/company/oiluna/",
       "location": "São Paulo, Brazil"
     },
@@ -47,7 +47,7 @@
       "startDate": "2022-07-31",
       "endDate": "2023-01-31",
       "highlights": [],
-      "summary": "Management of data team defining team structure, roles and development path for each one.\nContributed to the definition of data and tech architecture, looking at performance, costs and priorities considering the main company goals.\nAchievements:\n- Migration of a big legacy data integration architecture to Airflow in order to reduce costs;\n- Improvement of team performance with study sessions, coaching and management;\n- Add monitoring and code quality checks and quick bug solutions in order to keep company key data available and reliable for all the areas;\n- Mentoring of other squads to define tech solutions and how they can interact better with data team.",
+      "summary": "• Managed and coached the data team, boosting efficiency and improving collaboration and the clarity of roles.\n• Defined cost-effective ETL data architecture using Airflow, Docker and event driven architecture, cutting data operational costs by 50%.\n• Implemented monitoring and bug solutions using CloudWatch and Snowflake Alerts and Notifications, reducing critical data downtime by 30%.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
@@ -57,7 +57,7 @@
       "startDate": "2021-12-31",
       "endDate": "2022-07-31",
       "highlights": [],
-      "summary": "Contributed with the team development and coaching while dealing with technical solutions together with business, product and design squad members in order to deliver great products. \nSome of our achievements:\n- Improvement of the React Native app with the best development practices, CI/CD, tests, modularity, observability and so on;\n- Development of the backend squad knowledge in the event based architecture on AWS tooling to work with backend structure in order to achieve feature developments;\n- Geospacial Favo Entrepreneurs Search, an architecture to find the closest entrepreneur for each client given a set of criterias (Reduced time to respond web and app clients and improved user experience);\n- Development and improvement of relationships between tech and product teams, seeking for best practices and agile practices in order to improve the company productivity.",
+      "summary": "• Collaborated with cross-functional teams, improving communication and synchronization of 3 different areas: engineering, product and design.\n• Designed Geospatial Favo Entrepreneurs Search with ElasticSearch, reducing client response time by 50%.\n• Enhanced React Native app with best practices resulting in fewer user-reported bugs.\n• Implemented the backend event-driven architecture, leading to more observability increase and reduction of deployment and production errors.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
@@ -67,7 +67,7 @@
       "startDate": "2019-05-31",
       "endDate": "2019-09-30",
       "highlights": [],
-      "summary": "Development and maintenance of ETL process, keeping reliable data and performance.\nProvide data visualization/analysis through Looker for the company and started a new data B2B product to provide insights of their employes.",
+      "summary": "• Development and maintenance of ETL process with Airflow, Docker and PostgreSQL, keeping reliable data and performance.\n• Led the creation of interactive data dashboards in Looker providing data visualization/analysis to both internal actionable insights and to build a data B2B external product.",
       "url": "https://www.linkedin.com/company/xerpay/",
       "location": "São Paulo Area, Brazil"
     },
@@ -77,7 +77,6 @@
       "startDate": "2018-09-30",
       "endDate": "2019-05-31",
       "highlights": [],
-      "summary": "Frontend and mobile development with the best technologies very close to product in order to iterate fast through the product lifecycle.",
       "url": "https://www.linkedin.com/company/xerpay/",
       "location": "São Paulo, Brazil"
     },
@@ -87,7 +86,6 @@
       "startDate": "2018-05-31",
       "endDate": "2018-08-31",
       "highlights": [],
-      "summary": "Frontend to build Easynvest new web platform.\nBackend development for Rede (Itaú) to integrate external partners.",
       "url": "https://www.linkedin.com/company/iteris-consultoria-e-software/",
       "location": "São Paulo Area, Brazil"
     },
@@ -97,7 +95,6 @@
       "startDate": "2017-09-30",
       "endDate": "2018-05-31",
       "highlights": [],
-      "summary": "APIs and database development and maintenance. Started refactoring legacy applications in order to improve codebase and quality.\nFrontend development of pages together with marketing team in order to improve conversion and OKR metrics.",
       "url": "https://www.linkedin.com/company/tech-fit/",
       "location": "São Paulo, Brazil"
     },
@@ -107,7 +104,6 @@
       "startDate": "2016-12-31",
       "endDate": "2017-08-31",
       "highlights": [],
-      "summary": "Frontend and backend application development, working with APIs development and maintenance.\nWorking with relational and non-relational databases.",
       "url": "",
       "location": "São Paulo, Brazil"
     },
@@ -117,7 +113,6 @@
       "startDate": "2014-12-31",
       "endDate": "2016-12-31",
       "highlights": [],
-      "summary": "Responsible for analyzing and processing standards related to security in e-commerce with the help of internal and external software.",
       "url": "https://www.linkedin.com/company/clearsale/"
     },
     {
@@ -161,7 +156,7 @@
   ],
   "education": [
     {
-      "institution": "Universidade de São Paulo",
+      "institution": "University of São Paulo",
       "area": "Computer Science",
       "studyType": "Master's degree in Modeling Complex Systems",
       "startDate": "2019-12-31",
@@ -173,7 +168,7 @@
       ]
     },
     {
-      "institution": "Universidade Anhembi Morumbi",
+      "institution": "Anhembi Morumbi University",
       "area": "Computer Science",
       "studyType": "Bachelor's degree in computer science",
       "startDate": "2015-12-31",
@@ -208,6 +203,26 @@
   "certificates": [],
   "publications": [],
   "skills": [
+    {
+      "name": "Firebase",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Snowflake",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Next.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
     {
       "name": "Data Engineering",
       "level": "",
@@ -299,11 +314,6 @@
       "keywords": []
     },
     {
-      "name": "Business Strategy",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
@@ -335,6 +345,11 @@
     },
     {
       "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Business Strategy",
       "level": "",
       "keywords": []
     },
@@ -396,23 +411,23 @@
   "references": [],
   "projects": [
     {
-      "name": "App diário",
+      "name": "App Diary",
       "startDate": "2020-12-31",
-      "summary": "Projeto de app de diário, construído de ponta a ponta utilizando Flutter, Firebase e outras tecnologias.",
+      "summary": "• Founded and bootstrapped app, built end-to-end using Flutter and Firebase technologies. MVP launched in 3 months.\n• Designed an user-friendly interface and great features as offline storage, notification, mood tracking, PIN lock and assets upload, leading to achieve a 4.7 review score in Google Play with +100k Downloads (04/2024).",
       "url": "https://play.google.com/store/apps/details?id=me.correria.correria",
       "endDate": "2024-12-31"
     },
     {
-      "name": "Biblioteca Open Source de cards",
+      "name": "Card Open Source Flutter library",
       "startDate": "2021-12-31",
-      "summary": "Construída em Flutter e utilizada para mostrar preço e planos.",
+      "summary": "• Prices and plans with a beautiful card design. 37 likes and 80% of popularity on https://pub.dev (04/2024).",
       "url": "https://github.com/f2acode/pricing_cards",
       "endDate": "2023-12-31"
     },
     {
-      "name": "Biblioteca Crisp Open Source",
+      "name": "Crisp Open Source Flutter library",
       "startDate": "2022-12-31",
-      "summary": "Construída em Flutter e utilizada para conectar-se ao Crisp Chat e renderizar um widget de chat.",
+      "summary": "• Crisp Chat connection and widget rendering. 22 stars on GitHub (04/2024).",
       "url": "https://github.com/lunahq/flutter-crisp",
       "endDate": "2022-12-31"
     }
