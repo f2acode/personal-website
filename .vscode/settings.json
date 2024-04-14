@@ -4,6 +4,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "never"
   },
+  "editor.wordWrap": "on",
   "prettier.requireConfig": true,
   "files.associations": {
     "*.css": "tailwindcss"
