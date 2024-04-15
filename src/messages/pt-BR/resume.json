@@ -73,7 +73,7 @@
     },
     {
       "name": "Xerpa",
-      "position": "Software Engineer",
+      "position": "Engenheiro de Software",
       "startDate": "2018-09-30",
       "endDate": "2019-05-31",
       "highlights": [],
@@ -413,21 +413,21 @@
     {
       "name": "App Diary",
       "startDate": "2020-12-31",
-      "summary": "• Founded and bootstrapped app, built end-to-end using Flutter and Firebase technologies. MVP launched in 3 months.\n• Designed an user-friendly interface and great features as offline storage, notification, mood tracking, PIN lock and assets upload, leading to achieve a 4.7 review score in Google Play with +100k Downloads (04/2024).",
+      "summary": "• Aplicativo criado e fundado sem investimentos, construído de ponta a ponta usando tecnologias Flutter e Firebase. MVP lançado em 3 meses.\n• Projetamos uma interface amigável e ótimos recursos como armazenamento offline, notificação, monitoramento de humor, bloqueio de PIN e upload de ativos, levando a uma pontuação de avaliação de 4,7 no Google Play com mais de 100 mil downloads (04/2024).",
       "url": "https://play.google.com/store/apps/details?id=me.correria.correria",
       "endDate": "2024-12-31"
     },
     {
       "name": "Card Open Source Flutter library",
       "startDate": "2021-12-31",
-      "summary": "• Prices and plans with a beautiful card design. 37 likes and 80% of popularity on https://pub.dev (04/2024).",
+      "summary": "• Preços e planos com lindo design de cartão. 37 curtidas e 80% de popularidade em https://pub.dev (04/2024).",
       "url": "https://github.com/f2acode/pricing_cards",
       "endDate": "2023-12-31"
     },
     {
       "name": "Crisp Open Source Flutter library",
       "startDate": "2022-12-31",
-      "summary": "• Crisp Chat connection and widget rendering. 22 stars on GitHub (04/2024).",
+      "summary": "• Conexão Crisp Chat e renderização de widgets. 22 estrelas no GitHub (04/2024).",
       "url": "https://github.com/lunahq/flutter-crisp",
       "endDate": "2022-12-31"
     }

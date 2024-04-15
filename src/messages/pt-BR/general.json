@@ -1,0 +1,22 @@
+{
+  "ResumePage": {
+    "Display language": "Idioma de exibição",
+    "English": "Inglês",
+    "Education": "Educação",
+    "Skills": "Habilidades",
+    "Languages": "línguas",
+    "Summary": "Resumo",
+    "Experience": "Experiência",
+    "Projects": "Projetos",
+    "Awards": "Prêmios",
+    "Language Section": {
+      "Espanhol": "Espanhol",
+      "Português": "Português",
+      "Inglês": "Inglês",
+      "Professional Working": "Proficiência profissional no trabalho",
+      "Full Professional": "Proficiência profissional plena",
+      "Native Speaker": "Proficiência nativa"
+    },
+    "Portuguese": "Português"
+  }
+}

@@ -10,5 +10,7 @@
     "*.css": "tailwindcss"
   },
   "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.experimental.tsserver.web.typeAcquisition.enabled": true
+  "typescript.experimental.tsserver.web.typeAcquisition.enabled": true,
+  "i18n-ally.localesPaths": ["src/messages"],
+  "i18n-ally.keystyle": "nested"
 }
