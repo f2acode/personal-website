@@ -22,3 +22,10 @@ body {
   size: 8.3in 38in;
   margin: 0;
 }
+
+@media print {
+  .language-selector {
+    visibility: hidden;
+    height: 0;
+  }
+}

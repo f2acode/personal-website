@@ -91,7 +91,7 @@ export default function ResumePage() {
     skillsData && (
       <div className="flex place-content-center">
         <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-x-2">
-          <div className="flex space-x-3 items-center mb-2">
+          <div className="flex space-x-3 items-center mb-2 mt-2 language-selector">
             <H3Resume>Display language</H3Resume>
             <Select defaultValue={locale} onValueChange={handleLanguageChange}>
               <SelectTrigger className="w-[180px]">
