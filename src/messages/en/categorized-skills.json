@@ -1,0 +1,57 @@
+{
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "skills": [
+        "JavaScript",
+        "Dart",
+        "Python (Programming Language)",
+        "SQL",
+        "Clojure",
+        "C#"
+      ]
+    },
+    {
+      "category": "Data",
+      "skills": [
+        "Snowflake",
+        "Data Engineering",
+        "Data Analysis",
+        "Amazon Redshift",
+        "Data Science",
+        "Airflow",
+        "PostgreSQL",
+        "Looker (Software)",
+        "MongoDB"
+      ]
+    },
+    {
+      "category": "Cloud/DevOps",
+      "skills": [
+        "Firebase",
+        "Amazon Web Services (AWS)",
+        "Google Cloud Platform (GCP)",
+        "Terraform",
+        "Git",
+        "Docker"
+      ]
+    },
+    {
+      "category": "Frontend",
+      "skills": ["Next.js", "Flutter", "React Native", "React.js"]
+    },
+    { "category": "Backend", "skills": ["Elixir", "Node.js"] },
+    {
+      "category": "Soft Skills",
+      "skills": [
+        "Leadership",
+        "Mobile Software Development",
+        "Entrepreneurship",
+        "Project Management",
+        "Product Management",
+        "Creative Problem Solving",
+        "Business Strategy"
+      ]
+    }
+  ]
+}

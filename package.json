@@ -10,9 +10,18 @@
     "generate-skills-categories": "node --watch --env-file=.env.local src/scripts/generate-skills-categories.js"
   },
   "dependencies": {
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-switch": "^1.0.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "flag-icons": "^7.2.1",
+    "lucide-react": "^0.368.0",
     "next": "14.1.4",
+    "next-intl": "^3.11.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.2.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/js": "^9.0.0",

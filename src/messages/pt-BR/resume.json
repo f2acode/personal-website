@@ -2,12 +2,12 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Felipe Augusto de Almeida",
-    "label": "Squad Lead | Tech Lead | Software Engineer | Python | Flutter | JavaScript | Impacting lives through technology",
+    "label": "Squad Lead | Tech Lead | Software Engineer | Python | Flutter | JavaScript | Impactando vidas através da tecnologia",
     "image": "",
     "email": "felipe-augusto-13@hotmail.com",
     "phone": "+5511948414445",
     "url": "https://github.com/f2acode",
-    "summary": "Professional with more than 8 years of experience in leading technical teams, full-stack development and data engineering.\nLed challenging projects, including founding a company, overseeing technology and data teams of 4-8 members, driving software the development, facilitating technical advancements, streamlining cross-functional collaboration, and spearheading cost-saving initiatives and new project developments.",
+    "summary": "Profissional com mais de 8 anos de experiência liderando equipes técnicas, desenvolvimento full-stack e engenharia de dados.\nLiderei projetos desafiadores, incluindo a fundação de uma empresa, supervisionando equipes de tecnologia e dados de 4 a 8 membros, conduzindo o desenvolvimento de software, facilitando avanços técnicos, simplificando a colaboração multifuncional e liderando iniciativas de redução de custos e desenvolvimento de novos projetos.",
     "location": {
       "countryCode": "BR",
       "address": "São Paulo"
@@ -23,31 +23,31 @@
   "work": [
     {
       "name": "Justos",
-      "position": "Data Product Manager",
+      "position": "Gerente de Produto de Dados",
       "startDate": "2023-04-30",
       "endDate": "2023-09-30",
       "highlights": [],
-      "summary": "• Formulated and communicated of a well-defined product vision and strategy towards new data initiatives, aligned with 100% of the related areas.\n• Led the organization of a company wide roadmap using the Notion's Projects new feature for the 3 data teams (analytics, engineering and data science).\n• Directed the concept definition of a state-of-the-art chatbot solution using LLM's to create a 100% conversational quote.",
+      "summary": "• Formulei e comuniquei uma visão e estratégia de produto bem definida para novas iniciativas de dados, alinhada com 100% das áreas relacionadas.\n• Liderei a organização de um roadmap para toda a empresa utilizando o novo recurso Notion's Projects para as 3 equipes de dados (Analytics, Data Engineering e Data Science).\n• Direcionei a definição do conceito de uma solução de chatbot de última geração utilizando LLM's para criar uma cotação 100% conversacional.",
       "url": "https://www.linkedin.com/company/justos-seguros/",
       "location": "São Paulo, Brazil"
     },
     {
       "name": "Luna",
-      "position": "Co-Founder and Full-Stack/Data Engineer",
+      "position": "Cofundador e Engenheiro Full-Stack/Data",
       "startDate": "2020-01-31",
       "endDate": "2023-04-30",
       "highlights": [],
-      "summary": "• Founded and bootstrapped company from concept to profitability in 2 years.\n• Collaborated to the end-to-end software development, ensuring scalable solutions with an event driven architecture using Next.js, Cloud Functions, Pub/Sub, React, Firebase and PostgreSQL.\n• Orchestrated the product development, delivering market-leading solutions resulting in the timely release of a competitive feature set that drove an increase in product adoption.\n• Directed a data-centric approach, leveraging customer insights and segmentation analysis to customize marketing and product strategies.",
+      "summary": "• Empresa fundada e iniciada desde o conceito até a lucratividade em 2 anos.\n• Colaborei no desenvolvimento de software end-to-end, garantindo soluções escaláveis com arquitetura orientada a eventos utilizando Next.js, Cloud Functions, Pub/Sub, React, Firebase e PostgreSQL.\n• Orquestrei o desenvolvimento do produto, entregando soluções líderes de mercado, resultando no lançamento oportuno de um conjunto de recursos competitivos que impulsionou um aumento na adoção do produto.\n• Direcionei uma abordagem centrada em dados, aproveitando insights de clientes e análises de segmentação para personalizar estratégias de marketing e produtos.",
       "url": "https://www.linkedin.com/company/oiluna/",
       "location": "São Paulo, Brazil"
     },
     {
       "name": "Favo",
-      "position": "Principal Data Architect",
+      "position": "Arquiteto de Dados Principal",
       "startDate": "2022-07-31",
       "endDate": "2023-01-31",
       "highlights": [],
-      "summary": "• Managed and coached the data team, boosting efficiency and improving collaboration and the clarity of roles.\n• Defined cost-effective ETL data architecture using Airflow, Docker and event driven architecture, cutting data operational costs by 50%.\n• Implemented monitoring and bug solutions using CloudWatch and Snowflake Alerts and Notifications, reducing critical data downtime by 30%.",
+      "summary": "• Gerenciei e treinei a equipe de dados, aumentando a eficiência e melhorando a colaboração e a clareza das funções.\n• Defini uma arquitetura de dados ETL econômica usando Airflow, Docker e arquitetura orientada a eventos, reduzindo os custos operacionais de dados em 50%.\n• Implementei soluções de monitoramento e bugs usando CloudWatch e Snowflake Alerts and Notifications, reduzindo o tempo de inatividade de dados críticos em 30%.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
@@ -57,17 +57,17 @@
       "startDate": "2021-12-31",
       "endDate": "2022-07-31",
       "highlights": [],
-      "summary": "• Collaborated with cross-functional teams, improving communication and synchronization of 3 different areas: engineering, product and design.\n• Designed Geospatial Favo Entrepreneurs Search with ElasticSearch, reducing client response time by 50%.\n• Enhanced React Native app with best practices resulting in fewer user-reported bugs.\n• Implemented the backend event-driven architecture, leading to more observability increase and reduction of deployment and production errors.",
+      "summary": "• Colaborei com equipes multifuncionais, melhorando a comunicação e sincronização de 3 áreas distintas: engenharia, produto e design.\n• Projetei o Geospatial Favo Entrepreneurs Search com ElasticSearch, reduzindo o tempo de resposta do cliente em 50%.\n• Aplicativo React Native aprimorado com práticas recomendadas, resultando em menos bugs relatados pelos usuários.\n• Implementei a arquitetura backend orientada a eventos, levando a um maior aumento de observabilidade e redução de erros de implantação e produção.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
     {
       "name": "Xerpa",
-      "position": "Data Engineer",
+      "position": "Engenheiro de dados",
       "startDate": "2019-05-31",
       "endDate": "2019-09-30",
       "highlights": [],
-      "summary": "• Development and maintenance of ETL process with Airflow, Docker and PostgreSQL, keeping reliable data and performance.\n• Led the creation of interactive data dashboards in Looker providing data visualization/analysis to both internal actionable insights and to build a data B2B external product.",
+      "summary": "• Desenvolvimento e manutenção de processos ETL com Airflow, Docker e PostgreSQL, mantendo dados e performance confiáveis.\n• Liderei a criação de painéis de dados interativos no Looker, fornecendo visualização/análise de dados para insights acionáveis internos e para construir um produto externo de dados B2B.",
       "url": "https://www.linkedin.com/company/xerpay/",
       "location": "São Paulo Area, Brazil"
     },
@@ -82,7 +82,7 @@
     },
     {
       "name": "Iteris Consultoria e Software",
-      "position": "Software Engineer",
+      "position": "Engenheiro de Software",
       "startDate": "2018-05-31",
       "endDate": "2018-08-31",
       "highlights": [],
@@ -91,7 +91,7 @@
     },
     {
       "name": "tech fit",
-      "position": "Software Engineer",
+      "position": "Engenheiro de Software",
       "startDate": "2017-09-30",
       "endDate": "2018-05-31",
       "highlights": [],
@@ -109,7 +109,7 @@
     },
     {
       "name": "ClearSale",
-      "position": "Fraud Prevention Specialist",
+      "position": "Especialista em Prevenção de Fraudes",
       "startDate": "2014-12-31",
       "endDate": "2016-12-31",
       "highlights": [],
@@ -117,7 +117,7 @@
     },
     {
       "name": "ClearSale",
-      "position": "Authentication Operator",
+      "position": "Operador de Autenticação",
       "startDate": "2013-05-31",
       "endDate": "2014-04-30",
       "highlights": [],
@@ -133,7 +133,7 @@
       "endDate": "2016-06-30",
       "summary": null,
       "highlights": [],
-      "url": "https://www.linkedin.com/school/universidade-anhembi-morumbi/"
+      "url": "https://www.linkedin.com/company/166621"
     },
     {
       "organization": "Universidade Anhembi Morumbi",
@@ -142,7 +142,7 @@
       "endDate": "2018-06-30",
       "summary": null,
       "highlights": [],
-      "url": "https://www.linkedin.com/school/universidade-anhembi-morumbi/"
+      "url": "https://www.linkedin.com/company/166621"
     },
     {
       "organization": "Instituto Brasil Voluntário",
@@ -156,9 +156,9 @@
   ],
   "education": [
     {
-      "institution": "University of São Paulo",
+      "institution": "Universidade de São Paulo",
       "area": "Computer Science",
-      "studyType": "Master's degree in Modeling Complex Systems",
+      "studyType": "Mestrado em Modelagem de Sistemas Complexos",
       "startDate": "2019-12-31",
       "endDate": "2021-12-31",
       "score": "",
@@ -168,9 +168,9 @@
       ]
     },
     {
-      "institution": "Anhembi Morumbi University",
+      "institution": "Universidade Anhembi Morumbi",
       "area": "Computer Science",
-      "studyType": "Bachelor's degree in computer science",
+      "studyType": "Bacharel em Ciências da computação",
       "startDate": "2015-12-31",
       "endDate": "2018-12-31",
       "score": "",
@@ -179,7 +179,7 @@
     {
       "institution": "ETEC Zona Leste",
       "area": "Business Administration and Management, General",
-      "studyType": "Administration technician",
+      "studyType": "Técnico em administração",
       "startDate": "2011-12-31",
       "endDate": "2012-12-31",
       "score": "B",
@@ -191,18 +191,23 @@
       "title": "2st Place - Expo CIEE Hackathon ",
       "date": "2018-05-31",
       "awarder": "Coddera/CIEE",
-      "summary": "Development of platform for integrating medical information."
+      "summary": "Desenvolvimento de plataforma de integração de informações médicas."
     },
     {
       "title": "1st Place - Crodity hackathon ",
       "date": "2016-11-30",
       "awarder": "Crodity",
-      "summary": "Gathering and analyzing personal interesting based on social media using Facebook and Twitter APIs."
+      "summary": "Coleta e análise de interesses pessoais com base nas mídias sociais usando APIs do Facebook e Twitter."
     }
   ],
   "certificates": [],
   "publications": [],
   "skills": [
+    {
+      "name": "Firebase",
+      "level": "",
+      "keywords": []
+    },
     {
       "name": "Next.js",
       "level": "",
@@ -219,97 +224,17 @@
       "keywords": []
     },
     {
-      "name": "Amazon Web Services (AWS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Flutter",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Machine Learning",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Dart",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Mobile Software Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Elixir",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Project Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Analysis",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React Native",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Terraform",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Amazon Redshift",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Entrepreneurship",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Product Management",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Google Cloud Platform (GCP)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Science",
-      "level": "",
-      "keywords": []
-    },
-    {
       "name": "Python (Programming Language)",
       "level": "",
       "keywords": []
     },
     {
       "name": "Creative Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Mobile Software Development",
       "level": "",
       "keywords": []
     },
@@ -329,7 +254,32 @@
       "keywords": []
     },
     {
+      "name": "Amazon Redshift",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Entrepreneurship",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
       "level": "",
       "keywords": []
     },
@@ -339,12 +289,27 @@
       "keywords": []
     },
     {
+      "name": "React Native",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Business Strategy",
       "level": "",
       "keywords": []
     },
     {
+      "name": "Data Science",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Clojure",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Snowflake",
       "level": "",
       "keywords": []
     },
@@ -359,7 +324,27 @@
       "keywords": []
     },
     {
+      "name": "Flutter",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Looker (Software)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Elixir",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
       "level": "",
       "keywords": []
     },
@@ -369,12 +354,37 @@
       "keywords": []
     },
     {
+      "name": "Dart",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Node.js",
       "level": "",
       "keywords": []
     },
     {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Terraform",
+      "level": "",
+      "keywords": []
+    },
+    {
       "name": "Mobile Application Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Project Management",
       "level": "",
       "keywords": []
     }
