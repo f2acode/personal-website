@@ -148,7 +148,7 @@ export default function ResumePage() {
                         <p className="text-[#2451ff]">
                           {t(`Language Section.${language.language}`)}
                         </p>
-                        <p className="">{`Language Section.${t(language.fluency)}`}</p>
+                        <p>{t(`Language Section.${language.fluency}`)}</p>
                       </div>
                     </div>
                   ))
