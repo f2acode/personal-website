@@ -17,6 +17,21 @@
       "Full Professional": "Full Professional",
       "Native Speaker": "Native Speaker"
     },
-    "Portuguese": "Portuguese"
+    "Portuguese": "Portuguese",
+    "Save": "Save"
+  },
+  "HomePage": {
+    "Presentation": "Hey! I'm Felipe",
+    "PresentationDescription": "Squad/Tech Lead | Software Engineer | Entrepreneur",
+    "PresentationPhrase": "Impacting lives through technology.",
+    "Technical Proficiency": "Technical Proficiency",
+    "Technical Proficiency Description": "Mastery of relevant technologies and tools.",
+    "Problem-Solving Skills": "Problem-Solving Skills",
+    "Problem-Solving Skills Description": "Analytical mindset for effective solutions.",
+    "Communication and Collaboration": "Communication and Collaboration",
+    "Communication and Collaboration Description": "Clear communication and teamwork abilities.",
+    "Continuous Learning and Adaptability": "Continuous Learning and Adaptability",
+    "Continuous Learning and Adaptability Description": "Lifelong learning and flexible approach.",
+    "Download Resume": "Download Resume"
   }
 }

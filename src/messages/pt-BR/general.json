@@ -17,6 +17,21 @@
       "Full Professional": "Proficiência profissional plena",
       "Native Speaker": "Proficiência nativa"
     },
-    "Portuguese": "Português"
+    "Portuguese": "Português",
+    "Save": "Salvar"
+  },
+  "HomePage": {
+    "Presentation": "Olá! Eu sou Felipe",
+    "PresentationDescription": "Squad/Tech Lead | Engenheiro de software | Empreendedor",
+    "PresentationPhrase": "Impactando vidas através da tecnologia.",
+    "Technical Proficiency": "Proficiência Técnica",
+    "Technical Proficiency Description": "Domínio de tecnologias e ferramentas relevantes.",
+    "Problem-Solving Skills": "Habilidades para resolver problemas",
+    "Problem-Solving Skills Description": "Mentalidade analítica para soluções eficazes.",
+    "Communication and Collaboration": "Comunicação e Colaboração",
+    "Communication and Collaboration Description": "Comunicação clara e capacidade de trabalho em equipe.",
+    "Continuous Learning and Adaptability": "Aprendizagem Contínua e Adaptabilidade",
+    "Continuous Learning and Adaptability Description": "Aprendizagem ao longo da vida e abordagem flexível.",
+    "Download Resume": "Baixar currículo"
   }
 }

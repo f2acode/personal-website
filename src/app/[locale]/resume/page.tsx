@@ -3,6 +3,7 @@
 import H2Resume from '@/components/h2-resume'
 import H3Resume from '@/components/h3-resume'
 import TagLine from '@/components/tagline'
+import { Button } from '@/components/ui/button'
 import {
   Select,
   SelectContent,
@@ -91,10 +92,9 @@ export default function ResumePage() {
   return (
     resumeData &&
     skillsData && (
-      <div className="flex place-content-center">
-        <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-x-2">
+      <div className="flex place-content-center pt-20 resume-page">
+        <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-2">
           <div className="flex space-x-3 items-center mb-2 mt-2 language-selector">
-            <H3Resume>{t('Display language')}</H3Resume>
             <Select defaultValue={locale} onValueChange={handleLanguageChange}>
               <SelectTrigger className="w-[180px]">
                 <SelectValue placeholder="Select the language" />
@@ -106,8 +106,8 @@ export default function ResumePage() {
                 </SelectGroup>
               </SelectContent>
             </Select>
+            <Button onClick={() => window.print()}>{t('Save')}</Button>
           </div>
-
           <TagLine resumeData={resumeData}></TagLine>
           <div className="flex text-left" style={{ wordBreak: 'break-word' }}>
             <div className="w-2/6 m-3">

@@ -24,8 +24,13 @@ body {
 }
 
 @media print {
-  .language-selector {
+  .language-selector,
+  .site-header {
     visibility: hidden;
     height: 0;
+  }
+
+  .resume-page {
+    padding-top: 0 !important;
   }
 }

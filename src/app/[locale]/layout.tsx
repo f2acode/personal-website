@@ -1,8 +1,8 @@
+import Header from '@/components/header'
 import '@/styles/custom.css'
 import '@/styles/globals.css'
 import type { Metadata } from 'next'
 import { NextIntlClientProvider, useMessages } from 'next-intl'
-import 'node_modules/flag-icons/css/flag-icons.min.css'
 
 export const metadata: Metadata = {
   title: 'Felipe Augusto de Almeida',
@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang={locale}>
       <body className={'font-["Arial"] antialiased'}>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header></Header>
           {children}
         </NextIntlClientProvider>
       </body>
