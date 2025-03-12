@@ -22,6 +22,16 @@
   },
   "work": [
     {
+      "name": "Mentora",
+      "position": "Desenvolvedor Principal",
+      "startDate": "2024-04-18",
+      "endDate": "2025-04-05",
+      "highlights": [],
+      "summary": "• Liderei o desenvolvimento e a arquitetura de sistemas escaláveis, utilizando LLM para otimizar a experiência de mentoria e garantir alta performance.\n• Desenvolvi e integrei soluções no frontend e backend, garantindo uma plataforma intuitiva e de alto desempenho.\n• Gerenciei e orientei a equipe de desenvolvimento, promovendo boas práticas e inovação contínua, além de colaborar estreitamente com as equipes de produto e operações para alinhar as soluções técnicas às necessidades de negócio.",
+      "url": "https://www.linkedin.com/company/mentora-ai/",
+      "location": "São Paulo, Brazil"
+    },
+    {
       "name": "Justos",
       "position": "Gerente de Produto de Dados",
       "startDate": "2023-04-30",

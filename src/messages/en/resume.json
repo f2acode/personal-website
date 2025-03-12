@@ -22,6 +22,16 @@
   },
   "work": [
     {
+      "name": "Mentora",
+      "position": "Principal Developer",
+      "startDate": "2024-04-18",
+      "endDate": "2025-04-05",
+      "highlights": [],
+      "summary": "• Led the development and architecture of scalable systems, utilizing LLM to optimize the mentorship experience and ensure high performance.\n• Developed and integrated solutions in both frontend and backend, ensuring an intuitive and high-performing platform.\n• Managed and mentored the development team, promoting best practices and continuous innovation, while closely collaborating with product and operations teams to align technical solutions with business needs.",
+      "url": "https://www.linkedin.com/company/mentora-ai/",
+      "location": "São Paulo, Brazil"
+    },
+    {
       "name": "Justos",
       "position": "Data Product Manager",
       "startDate": "2023-04-30",
