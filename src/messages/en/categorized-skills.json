@@ -13,16 +13,6 @@
       ]
     },
     {
-      "category": "Cloud/DevOps",
-      "skills": [
-        "Amazon Web Services (AWS)",
-        "Google Cloud Platform (GCP)",
-        "Firebase",
-        "Terraform",
-        "Docker"
-      ]
-    },
-    {
       "category": "Backend",
       "skills": ["Django", "Node.js"]
     },
@@ -40,6 +30,7 @@
     {
       "category": "Data",
       "skills": [
+        "OpenAI Platform",
         "Airflow",
         "Snowflake",
         "PostgreSQL",
@@ -47,6 +38,16 @@
         "MongoDB",
         "Metabase",
         "Posthog"
+      ]
+    },
+    {
+      "category": "Cloud/DevOps",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Google Cloud Platform (GCP)",
+        "Firebase",
+        "Terraform",
+        "Docker"
       ]
     },
     {

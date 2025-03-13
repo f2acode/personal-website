@@ -12,17 +12,6 @@
         "Elixir"
       ]
     },
-    {
-      "category": "Cloud/DevOps",
-      "skills": [
-        "Amazon Web Services (AWS)",
-        "Google Cloud Platform (GCP)",
-        "Firebase",
-        "Terraform",
-        "Docker"
-      ]
-    },
-
     { "category": "Backend", "skills": ["Django", "Node.js"] },
     {
       "category": "Frontend/Mobile",
@@ -38,6 +27,7 @@
     {
       "category": "Dados",
       "skills": [
+        "Plataforma OpenAI",
         "Airflow",
         "Snowflake",
         "PostgreSQL",
@@ -45,6 +35,17 @@
         "MongoDB",
         "Metabase",
         "Posthog"
+      ]
+    },
+
+    {
+      "category": "Cloud/DevOps",
+      "skills": [
+        "Amazon Web Services (AWS)",
+        "Google Cloud Platform (GCP)",
+        "Firebase",
+        "Terraform",
+        "Docker"
       ]
     },
     {
