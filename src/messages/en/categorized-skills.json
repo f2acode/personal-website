@@ -1,41 +1,52 @@
 {
   "categories": [
     {
+      "category": "Programming Languages",
+      "skills": [
+        "JavaScript",
+        "Python",
+        "Dart",
+        "SQL",
+        "Clojure",
+        "C#",
+        "Elixir"
+      ]
+    },
+    {
       "category": "Cloud/DevOps",
       "skills": [
-        "Firebase",
         "Amazon Web Services (AWS)",
-        "Terraform",
         "Google Cloud Platform (GCP)",
+        "Firebase",
+        "Terraform",
         "Docker"
       ]
     },
     {
-      "category": "Frontend",
-      "skills": ["Next.js", "JavaScript", "Flutter", "React Native", "React.js"]
+      "category": "Backend",
+      "skills": ["Django", "Node.js"]
     },
     {
-      "category": "Programming Languages",
+      "category": "Frontend",
       "skills": [
-        "Dart",
-        "Python (Programming Language)",
-        "SQL",
-        "Clojure",
-        "C#"
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "HeroUI",
+        "React Native",
+        "Flutter"
       ]
     },
     {
       "category": "Data",
       "skills": [
-        "Snowflake",
-        "Data Engineering",
-        "Data Analysis",
-        "Machine Learning",
-        "Data Science",
-        "PostgreSQL",
         "Airflow",
-        "Looker (Software)",
-        "MongoDB"
+        "Snowflake",
+        "PostgreSQL",
+        "Looker",
+        "MongoDB",
+        "Metabase",
+        "Posthog"
       ]
     },
     {
@@ -48,7 +59,6 @@
         "Product Management",
         "Business Strategy"
       ]
-    },
-    { "category": "Backend", "skills": ["Elixir", "Git", "Linux", "Node.js"] }
+    }
   ]
 }

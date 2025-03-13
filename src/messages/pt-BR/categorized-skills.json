@@ -1,41 +1,50 @@
 {
   "categories": [
     {
-      "category": "Cloud/DevOps",
+      "category": "Linguagens de Programação",
       "skills": [
-        "Firebase",
-        "Amazon Web Services (AWS)",
-        "Terraform",
-        "Google Cloud Platform (GCP)",
-        "Docker"
+        "JavaScript",
+        "Python",
+        "Dart",
+        "SQL",
+        "Clojure",
+        "C#",
+        "Elixir"
       ]
     },
     {
-      "category": "Frontend",
-      "skills": ["Next.js", "JavaScript", "Flutter", "React Native", "React.js"]
-    },
-    {
-      "category": "Linguagens de Programação",
+      "category": "Cloud/DevOps",
       "skills": [
-        "Dart",
-        "Python (Linguagem de Programação)",
-        "SQL",
-        "Clojure",
-        "C#"
+        "Amazon Web Services (AWS)",
+        "Google Cloud Platform (GCP)",
+        "Firebase",
+        "Terraform",
+        "Docker"
+      ]
+    },
+
+    { "category": "Backend", "skills": ["Django", "Node.js"] },
+    {
+      "category": "Frontend/Mobile",
+      "skills": [
+        "Next.js",
+        "React.js",
+        "Tailwind CSS",
+        "HeroUI",
+        "React Native",
+        "Flutter"
       ]
     },
     {
       "category": "Dados",
       "skills": [
-        "Snowflake",
-        "Engenharia de Dados",
-        "Análise de Dados",
-        "Aprendizado de Máquina",
-        "Ciência de Dados",
-        "PostgreSQL",
         "Airflow",
-        "Looker (Software)",
-        "MongoDB"
+        "Snowflake",
+        "PostgreSQL",
+        "Looker",
+        "MongoDB",
+        "Metabase",
+        "Posthog"
       ]
     },
     {
@@ -48,7 +57,6 @@
         "Gestão de Produtos",
         "Estratégia de Negócios"
       ]
-    },
-    { "category": "Backend", "skills": ["Elixir", "Git", "Linux", "Node.js"] }
+    }
   ]
 }

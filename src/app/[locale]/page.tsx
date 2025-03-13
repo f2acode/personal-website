@@ -26,7 +26,7 @@ export default function Home() {
           />
         </div>
         <div className="flex py-32">
-          <div className="mx-auto lg:w-3/5 sm:w-full">
+          <div className="mx-auto lg:w-2/5 sm:w-full">
             <div className="text-left">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 {t('Presentation')}
@@ -146,16 +146,6 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-          </div>
-          <div className="hidden lg:block lg:w-2/5 text-center">
-            <Image
-              className="inline-block w-full md:w-2/3 rounded-full ring-2 ring-white border-2 border-gray-300"
-              src="/profile.jpg"
-              alt="Rounded profile picture of the candidate"
-              width={'300'}
-              height={'300'}
-              priority={true}
-            />
           </div>
         </div>
         <div
