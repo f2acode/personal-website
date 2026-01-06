@@ -22,6 +22,16 @@
   },
   "work": [
     {
+      "name": "Career Break",
+      "position": "Health and well-being",
+      "startDate": "2025-08-31",
+      "endDate": "2026-01-31",
+      "highlights": [],
+      "summary": "Medical leave due to a health condition that temporarily prevented me from working. Fully recovered and available for new opportunities.",
+      "url": "",
+      "location": ""
+    },
+    {
       "name": "Mentora",
       "position": "Principal Developer",
       "startDate": "2024-04-18",
@@ -30,6 +40,16 @@
       "summary": "• Led the development and architecture of scalable systems, utilizing LLM to optimize the mentorship experience and ensure high performance.\n• Developed and integrated solutions in both frontend and backend, ensuring an intuitive and high-performing platform.\n• Managed and mentored the development team, promoting best practices and continuous innovation, while closely collaborating with product and operations teams to align technical solutions with business needs.",
       "url": "https://www.linkedin.com/company/mentora-ai/",
       "location": "São Paulo, Brazil"
+    },
+    {
+      "name": "Career Break",
+      "position": "Health and well-being",
+      "startDate": "2023-10-31",
+      "endDate": "2024-02-29",
+      "highlights": [],
+      "summary": "Rest after a long entrepreneurial journey.",
+      "url": "",
+      "location": ""
     },
     {
       "name": "Justos",

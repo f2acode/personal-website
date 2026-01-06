@@ -15,15 +15,17 @@ interface TagLineProps {
 export default function TagLine({ resumeData }: TagLineProps) {
   return (
     <div className="flex items-center justify-between w-full">
-      <div className="w-2/6 text-center mx-3">
-        <Image
-          className="inline-block w-full md:w-2/3 rounded-full ring-2 ring-white"
-          src="/profile.jpg"
-          alt="Rounded profile picture of the candidate"
-          width={'300'}
-          height={'300'}
-          priority={true}
-        />
+      <div className="w-2/6 mx-3 grid aspect-square place-items-center">
+        <div className="w-full aspect-square flex items-center justify-center">
+          <Image
+            className="aspect-square object-contain rounded-full ring-2 ring-white"
+            src="/profile.png"
+            alt="Rounded profile picture of the candidate"
+            width={'300'}
+            height={'300'}
+            priority={true}
+          />
+        </div>
       </div>
       <div className="flex flex-col text-wrap w-4/6 mx-3 mt-4">
         <h1 className="text-2xl font-bold leading-7 text-gray-900 uppercase">
