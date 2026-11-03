@@ -22,18 +22,28 @@
   },
   "work": [
     {
-      "name": "Career Break",
-      "position": "Health and well-being",
-      "startDate": "2025-08-31",
-      "endDate": "2026-01-31",
+      "name": "Evertec",
+      "position": "Software Engineer",
+      "startDate": "2026-07-06",
+      "endDate": "",
       "highlights": [],
-      "summary": "Medical leave due to a health condition that temporarily prevented me from working. Fully recovered and available for new opportunities.",
+      "summary": "• Part of a horizontal innovation team at a large international bank, building AI-powered solutions that impact multiple teams across the organization.\n• Co-lead the development of an enterprise dynamic content generation platform designed for bank-wide adoption, combining a no-code visual editor, an AI development agent that generates and evolves content and interfaces, and multiple formats such as newsletter-style articles and dashboards.\n• Work across the product end to end: architecture, development, roadmap prioritization, product and design, aligning needs across business areas.\n• Stack: React, TypeScript, Node.js, Next.js and MongoDB.",
       "url": "",
-      "location": ""
+      "location": "São Paulo, Brazil"
+    },
+    {
+      "name": "Li Apps - Software, Data & AI Studio",
+      "position": "Software Engineer",
+      "startDate": "2025-05-31",
+      "endDate": "2026-07-31",
+      "highlights": [],
+      "summary": "• Designed and delivered highly complex full-stack solutions spanning software development, systems architecture, and data platforms (Lakehouse, Analytics, ETL).\n• Built AI-powered products: RAG pipelines, autonomous agents, and multimodal LLMs integrated with backends on Python, AWS, and GCP.",
+      "url": "",
+      "location": "Remote"
     },
     {
       "name": "Mentora",
-      "position": "Principal Developer",
+      "position": "Principal Engineer",
       "startDate": "2024-04-18",
       "endDate": "2025-04-05",
       "highlights": [],
@@ -77,7 +87,6 @@
       "startDate": "2022-07-31",
       "endDate": "2023-01-31",
       "highlights": [],
-      "summary": "• Managed and coached the data team, boosting efficiency and improving collaboration and the clarity of roles.\n• Defined cost-effective ETL data architecture using Airflow, Docker and event driven architecture, cutting data operational costs by 50%.\n• Implemented monitoring and bug solutions using CloudWatch and Snowflake Alerts and Notifications, reducing critical data downtime by 30%.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
@@ -87,26 +96,16 @@
       "startDate": "2021-12-31",
       "endDate": "2022-07-31",
       "highlights": [],
-      "summary": "• Collaborated with cross-functional teams, improving communication and synchronization of 3 different areas: engineering, product and design.\n• Designed Geospatial Favo Entrepreneurs Search with ElasticSearch, reducing client response time by 50%.\n• Enhanced React Native app with best practices resulting in fewer user-reported bugs.\n• Implemented the backend event-driven architecture, leading to more observability increase and reduction of deployment and production errors.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
     {
       "name": "Xerpa",
-      "position": "Data Engineer",
-      "startDate": "2019-05-31",
+      "position": "Software Engineer / Data Engineer",
+      "startDate": "2018-09-30",
       "endDate": "2019-09-30",
       "highlights": [],
-      "summary": "• Development and maintenance of ETL process with Airflow, Docker and PostgreSQL, keeping reliable data and performance.\n• Led the creation of interactive data dashboards in Looker providing data visualization/analysis to both internal actionable insights and to build a data B2B external product.",
-      "url": "https://www.linkedin.com/company/xerpay/",
-      "location": "São Paulo Area, Brazil"
-    },
-    {
-      "name": "Xerpa",
-      "position": "Software Engineer",
-      "startDate": "2018-09-30",
-      "endDate": "2019-05-31",
-      "highlights": [],
+      "summary": "• Software and data engineering using Elixir, Clojure, Airflow, Docker, PostgreSQL and Looker.",
       "url": "https://www.linkedin.com/company/xerpay/",
       "location": "São Paulo, Brazil"
     },

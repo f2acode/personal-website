@@ -15,7 +15,7 @@ interface TagLineProps {
 export default function TagLine({ resumeData }: TagLineProps) {
   return (
     <div className="flex items-center justify-between w-full">
-      <div className="w-2/6 mx-3 grid aspect-square place-items-center">
+      <div className="w-2/6 mx-3 grid aspect-square place-items-center print:w-[18%]">
         <div className="w-full aspect-square flex items-center justify-center">
           <Image
             className="aspect-square object-contain rounded-full ring-2 ring-white"
@@ -27,7 +27,7 @@ export default function TagLine({ resumeData }: TagLineProps) {
           />
         </div>
       </div>
-      <div className="flex flex-col text-wrap w-4/6 mx-3 mt-4">
+      <div className="flex flex-col text-wrap w-4/6 mx-3 mt-4 print:w-4/5">
         <h1 className="text-2xl font-bold leading-7 text-gray-900 uppercase">
           {resumeData.basics.name}
         </h1>

@@ -19,11 +19,21 @@ body {
 }
 
 @page {
-  size: 8.3in 38in;
-  margin: 0;
+  size: A4;
+  margin: 10mm;
 }
 
 @media print {
+  html {
+    font-size: 12px;
+  }
+
+  body {
+    background: none;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
   .language-selector,
   .site-header {
     visibility: hidden;
@@ -32,5 +42,13 @@ body {
 
   .resume-page {
     padding-top: 0 !important;
+  }
+
+  .resume-page p {
+    line-height: 1.35;
+  }
+
+  .resume-page h3 {
+    line-height: 1.4;
   }
 }

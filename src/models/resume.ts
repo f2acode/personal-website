@@ -98,7 +98,7 @@ export interface Volunteer {
 export interface Work {
   position: string
   startDate: Date
-  endDate: Date
+  endDate: Date | null
   summary?: null | string
   //   highlights: any[]
   url: string

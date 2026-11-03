@@ -16,14 +16,13 @@ import { Category } from '@/models/categorized-skills'
 import { Resume } from '@/models/resume'
 import { CalendarIcon } from '@heroicons/react/20/solid'
 import { useLocale, useTranslations } from 'next-intl'
-import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 export default function ResumePage() {
   function convertDates(startDateString: string, endDateString: string) {
     const startDate = new Date(startDateString)
-    const endDate = new Date(endDateString)
+    const endDate = endDateString ? new Date(endDateString) : null
 
     return {
       startDate,
@@ -93,7 +92,7 @@ export default function ResumePage() {
     resumeData &&
     skillsData && (
       <div className="flex place-content-center pt-20 resume-page">
-        <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-2">
+        <div className="flex items-center justify-center px-2 flex-col whitespace-break-spaces w-[1000px] border-2 print:w-full print:border-0 print:px-0">
           <div className="flex space-x-3 items-center mb-2 mt-2 language-selector">
             <Select defaultValue={locale} onValueChange={handleLanguageChange}>
               <SelectTrigger className="w-[180px]">
@@ -110,9 +109,9 @@ export default function ResumePage() {
           </div>
           <TagLine resumeData={resumeData}></TagLine>
           <div className="flex text-left" style={{ wordBreak: 'break-word' }}>
-            <div className="w-2/6 m-3">
+            <div className="w-2/6 m-3 print:w-1/4">
               <H2Resume>{t('Education')}</H2Resume>
-              <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
+              <div className="divide-y *:py-3 print:*:py-1.5 first:*:pt-0 last:*:pb-0 mb-8 print:mb-4">
                 {resumeData.education.map((educationItem, index) => (
                   <ProfileItem
                     key={index}
@@ -124,9 +123,9 @@ export default function ResumePage() {
                 ))}
               </div>
               <H2Resume>{t('Skills')}</H2Resume>
-              <div className="flex place-content-between flex-wrap divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
+              <div className="flex place-content-between flex-wrap divide-y *:py-3 print:*:py-1.5 first:*:pt-0 last:*:pb-0 mb-8 print:mb-4">
                 {skillsData.map((category, index) => (
-                  <div key={index}>
+                  <div key={index} className="print:break-inside-avoid">
                     <H3Resume>{category.category}</H3Resume>
                     {category.skills.map((skill, index) => (
                       <span
@@ -139,28 +138,30 @@ export default function ResumePage() {
                   </div>
                 ))}
               </div>
-              <H2Resume>{t('Languages')}</H2Resume>
-              <div className="space-y *:py-3 first:*:pt-0 last:*:pb-0">
-                {resumeData.languages
-                  .map((language, index) => (
-                    <div key={index} className="flex flex-row">
-                      <div className="divide-x *:px-3 first:*:pl-0 last:*:pr-0">
-                        <p className="text-[#2451ff]">
-                          {t(`Language Section.${language.language}`)}
-                        </p>
-                        <p>{t(`Language Section.${language.fluency}`)}</p>
+              <div className="print:break-inside-avoid">
+                <H2Resume>{t('Languages')}</H2Resume>
+                <div className="space-y *:py-3 print:*:py-1.5 first:*:pt-0 last:*:pb-0">
+                  {resumeData.languages
+                    .map((language, index) => (
+                      <div key={index} className="flex flex-row">
+                        <div className="divide-x *:px-3 first:*:pl-0 last:*:pr-0">
+                          <p className="text-[#2451ff]">
+                            {t(`Language Section.${language.language}`)}
+                          </p>
+                          <p>{t(`Language Section.${language.fluency}`)}</p>
+                        </div>
                       </div>
-                    </div>
-                  ))
-                  .slice(1, resumeData.languages.length)
-                  .reverse()}
+                    ))
+                    .slice(1, resumeData.languages.length)
+                    .reverse()}
+                </div>
               </div>
             </div>
-            <div className="w-4/6 m-3">
+            <div className="w-4/6 m-3 print:w-3/4">
               <H2Resume>{t('Summary')}</H2Resume>
-              <p className="mb-8">{resumeData.basics.summary}</p>
+              <p className="mb-8 print:mb-4">{resumeData.basics.summary}</p>
               <H2Resume>{t('Experience')}</H2Resume>
-              <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
+              <div className="divide-y *:py-3 print:*:py-1.5 first:*:pt-0 last:*:pb-0 mb-8 print:mb-4">
                 {resumeData.work.map((workItem, index) => (
                   <ProfileItem
                     key={index}
@@ -169,36 +170,6 @@ export default function ResumePage() {
                     startDate={workItem.startDate}
                     endDate={workItem.endDate}
                     description={workItem.summary}
-                  />
-                ))}
-              </div>
-              <H2Resume>{t('Projects')}</H2Resume>
-              <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0 mb-8">
-                {resumeData.projects.map((project, index) => (
-                  <ProfileItem
-                    key={index}
-                    title={project.name}
-                    institution={
-                      <Link target="_blank" href={project.url}>
-                        Link to project
-                      </Link>
-                    }
-                    startDate={project.startDate}
-                    endDate={project.endDate}
-                    description={project.summary}
-                  />
-                ))}
-              </div>
-              <H2Resume>{t('Awards')}</H2Resume>
-              <div className="divide-y *:py-3 first:*:pt-0 last:*:pb-0">
-                {resumeData.awards.map((award, index) => (
-                  <ProfileItem
-                    key={index}
-                    title={award.title}
-                    institution={award.awarder}
-                    startDate={new Date(award.date)}
-                    endDate={new Date(award.date)}
-                    description={award.summary}
                   />
                 ))}
               </div>
@@ -214,7 +185,7 @@ interface ProfileItemProps {
   title: string
   institution: string | React.ReactNode
   startDate: Date
-  endDate: Date
+  endDate: Date | null
   description?: string | null
 }
 
@@ -225,8 +196,10 @@ function ProfileItem({
   endDate,
   description,
 }: ProfileItemProps) {
+  const t = useTranslations('ResumePage')
+
   return (
-    <div>
+    <div className="print:break-inside-avoid">
       <H3Resume>{title}</H3Resume>
       <div className="text-[#2451ff] font-medium">{institution}</div>
       <div className="flex items-center">
@@ -240,10 +213,12 @@ function ProfileItem({
             month: '2-digit',
           }).format(startDate) +
             ' - ' +
-            new Intl.DateTimeFormat('en-US', {
-              year: 'numeric',
-              month: '2-digit',
-            }).format(endDate)}
+            (endDate
+              ? new Intl.DateTimeFormat('en-US', {
+                  year: 'numeric',
+                  month: '2-digit',
+                }).format(endDate)
+              : t('Present'))}
         </p>
       </div>
       {description && <p>{description.replace(/- /g, '• ')}</p>}

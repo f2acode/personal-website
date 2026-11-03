@@ -22,18 +22,28 @@
   },
   "work": [
     {
-      "name": "Pausa na Carreira",
-      "position": "Saúde e bem-estar",
-      "startDate": "2025-08-31",
-      "endDate": "2026-01-31",
+      "name": "Evertec",
+      "position": "Engenheiro de Software",
+      "startDate": "2026-07-06",
+      "endDate": "",
       "highlights": [],
-      "summary": "Licença médica devido a uma condição de saúde que me impediu temporariamente de trabalhar. Totalmente recuperado e disponível para novas oportunidades.",
+      "summary": "• Atuação em área horizontal de inovação de um banco internacional de grande porte, desenvolvendo soluções com IA que impactam diversas equipes.\n• Co-liderança do desenvolvimento de uma plataforma corporativa de geração de conteúdo dinâmico, pensada para adoção em toda a organização, que combina editor visual no-code, agente de IA para desenvolvimento que gera e evolui conteúdos e interfaces, e formatos variados como artigos, newsletters e dashboards.\n• Atuação de ponta a ponta no produto: arquitetura, desenvolvimento, priorização de roadmap, produto e design, alinhando necessidades de diferentes áreas de negócio.\n• Stack: React, TypeScript, Node.js, Next.js e MongoDB.",
       "url": "",
-      "location": ""
+      "location": "São Paulo, Brazil"
+    },
+    {
+      "name": "Li Apps - Software, Data & AI Studio",
+      "position": "Engenheiro de Software",
+      "startDate": "2025-05-31",
+      "endDate": "2026-07-31",
+      "highlights": [],
+      "summary": "• Projeto e entrega de soluções full-stack de alta complexidade, cobrindo desenvolvimento de software, arquitetura de sistemas e plataformas de dados (Lakehouse, Analytics, ETL).\n• Construção de produtos com IA: pipelines RAG, agentes autônomos e LLMs multimodais integrados a backends em Python, AWS e GCP.",
+      "url": "",
+      "location": "Remote"
     },
     {
       "name": "Mentora",
-      "position": "Desenvolvedor Principal",
+      "position": "Engenheiro Principal",
       "startDate": "2024-04-18",
       "endDate": "2025-04-05",
       "highlights": [],
@@ -77,7 +87,6 @@
       "startDate": "2022-07-31",
       "endDate": "2023-01-31",
       "highlights": [],
-      "summary": "• Gerenciei e treinei a equipe de dados, aumentando a eficiência e melhorando a colaboração e a clareza das funções.\n• Defini uma arquitetura de dados ETL econômica usando Airflow, Docker e arquitetura orientada a eventos, reduzindo os custos operacionais de dados em 50%.\n• Implementei soluções de monitoramento e bugs usando CloudWatch e Snowflake Alerts and Notifications, reduzindo o tempo de inatividade de dados críticos em 30%.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
@@ -87,26 +96,16 @@
       "startDate": "2021-12-31",
       "endDate": "2022-07-31",
       "highlights": [],
-      "summary": "• Colaborei com equipes multifuncionais, melhorando a comunicação e sincronização de 3 áreas distintas: engenharia, produto e design.\n• Projetei o Geospatial Favo Entrepreneurs Search com ElasticSearch, reduzindo o tempo de resposta do cliente em 50%.\n• Aplicativo React Native aprimorado com práticas recomendadas, resultando em menos bugs relatados pelos usuários.\n• Implementei a arquitetura backend orientada a eventos, levando a um maior aumento de observabilidade e redução de erros de implantação e produção.",
       "url": "https://www.linkedin.com/company/mercadofavo/",
       "location": "São Paulo, Brazil"
     },
     {
       "name": "Xerpa",
-      "position": "Engenheiro de dados",
-      "startDate": "2019-05-31",
+      "position": "Engenheiro de Software / Dados",
+      "startDate": "2018-09-30",
       "endDate": "2019-09-30",
       "highlights": [],
-      "summary": "• Desenvolvimento e manutenção de processos ETL com Airflow, Docker e PostgreSQL, mantendo dados e performance confiáveis.\n• Liderei a criação de painéis de dados interativos no Looker, fornecendo visualização/análise de dados para insights acionáveis internos e para construir um produto externo de dados B2B.",
-      "url": "https://www.linkedin.com/company/xerpay/",
-      "location": "São Paulo Area, Brazil"
-    },
-    {
-      "name": "Xerpa",
-      "position": "Engenheiro de Software",
-      "startDate": "2018-09-30",
-      "endDate": "2019-05-31",
-      "highlights": [],
+      "summary": "• Engenharia de software e dados utilizando Elixir, Clojure, Airflow, Docker, PostgreSQL e Looker.",
       "url": "https://www.linkedin.com/company/xerpay/",
       "location": "São Paulo, Brazil"
     },
